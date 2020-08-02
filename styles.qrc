@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>styleMainWindow.css</file>
+        <file>styleInformationWindow.css</file>
+        <file>styleLicenseWindow.css</file>
+        <file>styleScrollBar.css</file>
+        <file>styleRegisterWindow.css</file>
+    </qresource>
+</RCC>

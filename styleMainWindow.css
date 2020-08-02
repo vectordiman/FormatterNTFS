@@ -1,0 +1,195 @@
+QMainWindow {
+
+    background-color: black;
+}
+QMainWindow::separator {
+
+    background-color: black;
+}
+
+QLabel {
+
+    color: orange;
+    border-color: orange;
+}
+QLabel:!enabled {
+
+    background-color: black;
+    border: 1px solid rgb(128,83,0);
+    border-color: rgb(128,83,0);
+    color: rgb(128,83,0);
+}
+
+QPushButton {
+
+    background-color: black;
+    border: 1px solid orange;
+    border-color: orange;
+    color: orange;
+}
+QPushButton:pressed {
+
+    background-color: orange;
+    border: 1px solid black;
+    border-color: orange;
+    color: black;
+}
+QPushButton:!enabled {
+
+    background-color: black;
+    border: 1px solid rgb(128,83,0);
+    border-color: rgb(128,83,0);
+    color: rgb(128,83,0);
+}
+QPushButton:hover {
+
+    background-color: rgb(30,30,30);
+}
+
+
+QLineEdit {
+
+    background-color: black;
+    border: 1px solid orange;
+    border-color: orange;
+    color: orange;
+}
+QLineEdit:!enabled {
+
+    background-color: black;
+    border: 1px solid rgb(128,83,0);
+    border-color: rgb(128,83,0);
+    color: rgb(128,83,0);
+}
+
+QFrame {
+
+    color: orange;
+}
+
+QProgressBar {
+
+    background-color: black;
+    border: 2px solid orange;
+    color: orange;
+    text-align: center;
+}
+QProgressBar::chunk {
+
+    background-color: orange;
+    width: 20px;
+}
+
+QComboBox {
+
+    color: orange;
+    border: 1px solid orange;
+    background-color: black;
+    padding: 1px 18px 1px 3px;
+    min-width: 6em;
+}
+QComboBox:!enabled {
+
+    background-color: black;
+    border: 1px solid rgb(128,83,0);
+    border-color: rgb(128,83,0);
+    color: rgb(128,83,0);
+    padding: 1px 18px 1px 3px;
+    min-width: 6em;
+}
+QComboBox:editable {
+
+    background: black;
+    border: 3px solid orange;
+}
+QComboBox::drop-down {
+
+    width: 15px;
+
+    border-left-width: 1px;
+    border-left-color: orange;
+    border-left-style: solid;
+}
+QComboBox::drop-down:!enabled {
+
+    width: 15px;
+
+    border-left-width: 1px;
+    border-left-color: rgb(128,83,0);
+    border-left-style: solid;
+}
+QComboBox QAbstractItemView {
+
+    selection-color: orange;
+    border: 2px solid orange;
+    background-color: rgb(30,30,30);
+    selection-background-color: black;
+
+    height: 100px;
+}
+
+QCheckBox {
+
+    color: orange;
+    border: 1px solid orange;
+    background-color: black;
+    padding: 1px 18px 1px 3px;
+    min-width: 6em;
+}
+QCheckBox:!enabled {
+
+    background-color: black;
+    border: 1px solid orange;
+    border-color: orange;
+    color: orange;
+    padding: 1px 18px 1px 3px;
+    min-width: 6em;
+}
+QCheckBox::indicator {
+
+    width: 8px;
+    height: 8px;
+    border: 1px solid orange;
+    background-color: black;
+}
+QCheckBox::indicator:indeterminate {
+
+    width: 8px;
+    height: 8px;
+    border: 1px solid rgb(128,83,0);
+    background-color: red;
+}
+QCheckBox::indicator:unchecked {
+
+    border: 1px solid orange;
+    background-color: black;
+}
+QCheckBox::indicator:unchecked:hover {
+
+    border: 1px solid orange;
+    background-color: rgb(128,83,0);
+}
+QCheckBox::indicator:unchecked:pressed {
+
+    border: 1px solid orange;
+    background-color: black;
+}
+
+QCheckBox::indicator:checked {
+
+    border: 1px solid orange;
+    background-color: orange;
+}
+QCheckBox::indicator:checked:hover {
+
+    border: 1px solid orange;
+    background-color: rgb(128,83,0);
+}
+QCheckBox::indicator:checked:pressed {
+
+    border: 1px solid orange;
+    background-color: black;
+}
+
+
+

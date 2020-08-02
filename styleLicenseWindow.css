@@ -1,0 +1,71 @@
+QMainWindow {
+
+    background-color: black;
+}
+QMainWindow::separator {
+
+    background-color: black;
+}
+
+QLabel {
+
+    color: orange;
+    border-color: orange;
+}
+QLabel:!enabled {
+
+    background-color: black;
+    border: 1px solid rgb(128,83,0);
+    border-color: rgb(128,83,0);
+    color: rgb(128,83,0);
+}
+
+QPushButton {
+
+    background-color: black;
+    border: 1px solid orange;
+    border-color: orange;
+    color: orange;
+}
+QPushButton:pressed {
+
+    background-color: orange;
+    border: 1px solid black;
+    border-color: orange;
+    color: black;
+}
+QPushButton:!enabled {
+
+    background-color: black;
+    border: 1px solid rgb(128,83,0);
+    border-color: rgb(128,83,0);
+    color: rgb(128,83,0);
+}
+QPushButton:hover {
+
+    background-color: rgb(30,30,30);
+}
+
+
+QLineEdit {
+
+    background-color: black;
+    border: 1px solid orange;
+    border-color: orange;
+    color: orange;
+}
+
+QTextEdit {
+
+    background-color: black;
+    border: 1px solid orange;
+    border-color: orange;
+    color: orange;
+}
+
+QFrame {
+
+    color: orange;
+}
+
+
